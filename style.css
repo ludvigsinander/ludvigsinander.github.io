@@ -1,0 +1,48 @@
+/*** define fonts ***/
+
+@font-face {
+  font-family: 'Latin Modern Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://www.ludvigsinander.net/fonts/LMSans10-Regular.woff2') format('woff2'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-Regular.woff') format('woff'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Latin Modern Sans';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url('https://www.ludvigsinander.net/fonts/LMSans10-Oblique.woff2') format('woff2'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-Oblique.woff') format('woff'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-Oblique.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Latin Modern Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url('https://www.ludvigsinander.net/fonts/LMSans10-Bold.woff2') format('woff2'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-Bold.woff') format('woff'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Latin Modern Sans';
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url('https://www.ludvigsinander.net/fonts/LMSans10-BoldOblique.woff2') format('woff2'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-BoldOblique.woff') format('woff'),
+    url('https://www.ludvigsinander.net/fonts/LMSans10-BoldOblique.ttf') format('truetype');
+}
+
+
+/*** fonts ***/
+
+body {
+  font-family:"Latin Modern Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
